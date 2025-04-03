@@ -1,14 +1,43 @@
-# Module_11
-Web Scraping Tasks
+Web Scraping with Python
 
-Background
-You’re now ready to take on a full web-scraping and data analysis project. You’ve learned to identify HTML elements on a page, identify their id and class attributes, and use this knowledge to extract information via both automated browsing with Splinter and HTML parsing with Beautiful Soup. You’ve also learned to scrape various types of information. These include HTML tables and recurring elements, like multiple news articles on a webpage.
+## 🔍 Overview
 
-As you work on this Challenge, remember that you’re strengthening the same core skills that you’ve been developing until now: collecting data, organizing and storing data, analyzing data, and then visually communicating your insights.
+This project showcases web scraping skills using **BeautifulSoup** and **Splinter**. The tasks focus on extracting news articles and weather data from Mars-related websites, processing the information, and preparing it for further analysis.
 
-What You're Creating
-This new assignment consists of two technical products. You will submit the following deliverables:
+## 🧠 Objectives
 
-Deliverable 1: Scrape titles and preview text from Mars news articles.
+1. **Deliverable 1** – Scrape Mars news articles:
+   - Extract titles and preview text using HTML parsing techniques.
 
-Deliverable 2: Scrape and analyze Mars weather data, which exists in a table.
+2. **Deliverable 2** – Scrape Mars weather data:
+   - Extract data from an HTML table and convert it into a Pandas DataFrame.
+
+## 🧰 Tools & Technologies
+
+- Python
+- Jupyter Notebook
+- BeautifulSoup
+- Splinter
+- Pandas
+- HTML parsing
+
+## 📁 Project Files
+
+- `web_scraping_pt1.ipynb` – Scraping article titles and preview text
+- `web_scraping_pt2.ipynb` – Scraping Mars weather table data
+- `README.md` – Project documentation
+
+## 📊 Example Output
+- Clean table of Mars weather from HTML.
+
+- Title/preview data for Mars news stored in structured form.
+
+## 🚀 Next Steps
+- Automate scraping on a schedule using cron or Airflow
+
+- Store scraped data into a SQL or NoSQL database
+
+- Extend to multi-page or JavaScript-rendered sites using Selenium
+
+## 📜 License
+- This is an educational project and is not licensed for commercial use.
